@@ -27,3 +27,10 @@ deploy:
             password: CICD1
         urls:
             - https://control.sandbox.imapex.io/marathon/v2/apps/class/kriswans/restart?force=true
+
+notify:
+    spark:
+        image: hpreston/drone-spark
+        auth_token: ZTYyYTQ2ZmItMWU1OS00MzhiLTliMTYtYzAwODc0OTUxODc0ZDdkODM0NDYtOGUy
+        roomId: "DEVELOPER RELEVANCE-DENVER"
+

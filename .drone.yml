@@ -16,3 +16,14 @@ publish:
         username: kriswans
         password: S0com123!
         email: kris@swannynet.com
+
+deploy:
+    webhook:
+        image: plugins/drone-webhook
+        skip_verify: true
+        method: POST
+        auth:
+            username: CICD1
+            password: CICD1
+        urls:
+            - https://control.sandbox.imapex.io/marathon/v2/apps/class/kriswans/restart?force=true

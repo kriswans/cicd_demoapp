@@ -32,5 +32,5 @@ notify:
     spark:
         image: hpreston/drone-spark
         auth_token: ZTYyYTQ2ZmItMWU1OS00MzhiLTliMTYtYzAwODc0OTUxODc0ZDdkODM0NDYtOGUy
-        roomId: "DEVELOPER RELEVANCE-DENVER"
+        roomId: Y2lzY29zcGFyazovL3VzL1JPT00vMGJkYjQwMjAtMTNjNi0xMWU3LWI0MjktZjE3Yjc0ZWFjMjkw
 

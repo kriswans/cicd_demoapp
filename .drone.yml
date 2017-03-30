@@ -11,8 +11,8 @@ build:
 
 publish:
     docker:
-        repo: $$kriswans/cicd_demoapp
+        repo: kriswans/cicd_demoapp
         tag: latest
-        username: $$kriswans
-        password: $$S0com123!
-        email: $$kris@swannynet.com
+        username: kriswans
+        password: S0com123!
+        email: kris@swannynet.com
